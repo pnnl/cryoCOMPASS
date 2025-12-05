@@ -1,0 +1,41 @@
+Package: CryoEMDOE
+Title: Shiny App for Creating and Analyzing Factorial Design Experiments for Cryo EM
+Version: 0.0.0.9000
+Authors@R: 
+    person("Damon", "Leach", , "damon.leach@pnnl.gov", role = c("aut", "cre")),person("Rose Marie", "Yasuda", email = "rose.yasuda@pnnl.gov", role = c("aut"))
+Description: Provides an app for creating and analyzing factorial design experiments for Cryo EM
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+  shiny,
+  shinyjs,
+  shinyBS,
+  shinyWidgets,
+  shinycssloaders,
+  shinyalert,
+  prompter,
+  shinydashboardPlus,
+  shinyFiles,
+  shinyjqui,
+  rintrojs,
+  shinybusy,
+  shiny.blueprint,
+  AlgDesign,
+  dplyr,
+  ggplot2,
+  car,
+  patchwork,
+  desirability,
+  gt,
+  stringr,
+  readxl,
+  plotly,
+  writexl,
+  purrr
+Suggests:
+  knitr,
+  rmarkdown,
+  testthat (>= 3.0.0)
